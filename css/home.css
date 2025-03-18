@@ -1,0 +1,393 @@
+/* section banner */
+
+/* -------------------- */
+
+/* section */
+
+.banner-bg {
+    height: 600px;
+    background-image: url('../img/rect1.png');
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.banner-cont {
+    height: 600px;
+}
+
+.banner-text {
+    color: var(--color-1);
+}
+
+.banner-text h1 {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.banner-text p {
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 20px 0;
+    color: var(--color-3);
+}
+
+.banner-btn a {
+    display: inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+
+.banner-btn a:nth-child(1) {
+    background: var(--color-2);
+    border: 1px solid var(--color-2);
+    color: var(--color-1);
+    margin-right: 20px;
+}
+
+.banner-btn a:nth-child(1):hover {
+    background: transparent;
+    border: 1px solid var(--color-1);
+    transition: 0.5s;
+}
+
+.banner-btn a:nth-child(2) {
+    border: 1px solid var(--color-1);
+    color: var(--color-1);
+}
+
+.banner-btn a:nth-child(2):hover {
+    background: var(--color-2);
+    border: 1px solid var(--color-2);
+    transition: 0.5s;
+}
+
+/* -------------------- */
+
+/* section home-servicos*/
+
+section.home-servicos {
+    background: var(--color-5);
+    padding-bottom: 60px;
+}
+
+.home-servicos-card {
+    padding: 40px; 
+    color: var(--color-4);
+}
+
+.home-servicos-card-img img {
+    max-width: 100%;
+}
+
+.home-servicos-card-text h3 {
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.home-servicos-card-text p {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+/* -------------------- */
+
+/* section home-valores */
+
+.home-valores-img img {
+    max-width: 90%;
+}
+
+.home-valores-card-img img {
+    max-width: 100%;
+}
+
+.home-valores-card-text {
+    padding-left: 10px;
+}
+
+.home-valores-card-text h3 {
+    margin-bottom: 20px;
+}
+
+.home-valores-card-text p {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+/* -------------------- */
+
+/* section numeros*/
+
+section.numeros {
+    padding: 100px 0;
+}
+
+.numeros-card {
+    width: 30%;
+    box-shadow: 6px 6px 33px 9px rgba(0,0,0,0.16);
+    padding: 50px 20px;
+}
+
+.numeros-card:nth-child(1) {
+    background: var(--color-4);
+    margin-right: 20px;
+    color: var(--color-1);
+}
+
+.numeros-card:nth-child(2) {
+    background: var(--color-5);
+    color: var(--color-4);
+    margin-right: 20px;
+}
+
+.numeros-card:nth-child(3) {
+    background: var(--color-2);
+    color: var(--color-1);
+}
+
+.numeros-card-img img {
+    max-width: 30%;
+}
+
+.numeros-card-text {
+    margin-top: 80px;
+}
+
+.numeros-card-text h3 {
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.numeros-card-text span {
+    font-size: 34px;
+}
+
+/* -------------------- */
+
+/* section diferenciais */
+
+section.diferenciais {
+    background: var(--color-4);
+    padding: 60px 0;
+}
+
+.diferenciais-title {
+    margin-bottom: 40px;
+}
+
+.diferenciais-title h2 {
+    color: var(--color-1);
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.diferenciais-card-border {
+    width: 25%;
+    border: 1px solid var(--color-1);
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.diferenciais-card-border:nth-child(1), .diferenciais-card-border:nth-child(2) {
+    margin-right: 40px;
+}
+
+.diferenciais-card {
+    width: 100%;
+    background: var(--color-1);
+    padding: 40px;
+    color: var(--color-4);
+    border-radius: 10px;
+}
+
+.diferenciais-card-img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--color-4);
+    border-radius: 50%;
+}
+
+.diferenciais-card-img img {
+    max-width: 70%;
+}
+
+.diferenciais-card-text h3 {
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.diferenciais-card-text p {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+/* -------------------- */
+
+/* section home-sobre */
+
+section.home-sobre {
+    background-color: var(--color-5);
+    padding-bottom: 60px;
+}
+
+.home-sobre-img img {
+    max-width: 90%;
+}
+
+.home-sobre-text {
+    padding-left: 40px;
+    color: var(--color-4);
+    align-items: stretch;
+}
+
+.home-sobre-text p {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+/* -------------------- */
+
+@media(max-width: 768px) {
+
+    /* section banner */
+
+    .banner-text {
+        width: 100%;
+    }
+
+    /* --------------------------------- */
+
+    /* section home-servicos */
+
+    .home-servicos-cont {
+        flex-direction: column;
+    }
+
+    .home-servicos-card {
+        width: 100%;
+        padding: 0;
+    }
+
+    .home-servicos-card:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    /* --------------------------------- */
+
+    /* section home-valores */
+
+    .home-valores-cont {
+        flex-direction: column;
+    }
+
+    .home-valores-img, .home-valores-text {
+        width: 100%;
+    }
+
+    .home-valores-img img {
+        max-width: 100%;
+    }
+
+    .home-valores-text {
+        margin-top: 30px;
+    }
+
+    .home-valores-card {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .home-valores-card-img {
+        width: 10%;
+    }
+
+    .home-valores-card-text {
+        width: 90%;
+    }
+
+    .home-valores-card:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .home-valores-card-text {
+        width: 90%;
+    }
+
+    /* --------------------------------- */
+
+    /* section numeros */
+
+    .numeros-cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .numeros-card {
+        width: 100%;
+    }
+
+    .numeros-card:nth-child(1) {
+        margin-right: 0px;
+    }
+    
+    .numeros-card:nth-child(2) {
+        margin-right: 0px;
+    }
+
+    .numeros-card:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    /* --------------------------------- */
+
+    /* section diferenciais */
+
+    .diferenciais-cont {
+        flex-direction: column;
+    }
+
+    .diferenciais-card-border {
+        width: 100%;
+    }
+
+    .diferenciais-card-border:nth-child(1), .diferenciais-card-border:nth-child(2) {
+        margin-right: 0px;
+    }
+
+    .diferenciais-card-border:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    /* --------------------------------- */
+
+    /* section home-sobre */
+
+    .home-sobre-cont {
+        flex-direction: column;
+    }
+
+    .home-sobre-img, .home-sobre-text {
+        width: 100%;
+    }
+
+    .home-sobre-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-sobre-text {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .home-sobre-text p:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    /* --------------------------------- */
+
+}
